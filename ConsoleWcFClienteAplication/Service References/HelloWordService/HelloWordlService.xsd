@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Prueba.com" elementFormDefault="qualified" targetNamespace="http://Prueba.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMessageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMessageResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPersona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_persona" nillable="true" type="tns:JJSo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="JJSo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Edad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Apellido" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JJSo" nillable="true" type="tns:JJSo" />
+  <xs:element name="GetPersonaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPersonaResult" nillable="true" type="tns:JJSo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

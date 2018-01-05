@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3bf26bec-7d4a-42ff-b416-2aa2d9e1666c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50281/HostExpressServer/HelloWordlService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HelloWordlService.xsd" MetadataType="Schema" ID="8c349af4-4f13-4625-908c-1dc4d2fd5185" SourceId="1" SourceUrl="http://localhost:50281/HostExpressServer/HelloWordlService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HelloWordlService1.xsd" MetadataType="Schema" ID="c61e39db-613f-4acb-9c5d-779d942eda73" SourceId="1" SourceUrl="http://localhost:50281/HostExpressServer/HelloWordlService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HelloWorldService.wsdl" MetadataType="Wsdl" ID="a1d74878-e6f2-4c84-9684-c6b1ac4cbdb7" SourceId="1" SourceUrl="http://localhost:50281/HostExpressServer/HelloWordlService.svc?wsdl" />
+    <MetadataFile FileName="HelloWordlService.wsdl" MetadataType="Wsdl" ID="810d10c3-b088-4624-80f4-d43fa1ca4891" SourceId="1" SourceUrl="http://localhost:50281/HostExpressServer/HelloWordlService.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
