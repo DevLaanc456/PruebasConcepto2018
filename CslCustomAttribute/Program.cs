@@ -12,7 +12,7 @@ namespace CslCustomAttribute
         {
 
             CustomAttributes _prueba = new CustomAttributes();
-            _prueba.ObtenerPropiedadesClase(typeof(DatosArchivos));
+            _prueba.ObtenerPropiedades(typeof(DatosArchivos));
             Console.WriteLine("Termino");
             Console.ReadKey();
 
